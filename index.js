@@ -42,8 +42,6 @@ app.post('/api/form', (req,res)=>{
             <li>${req.body.meningococo4}</li>
             <li>${req.body.TripleBacA}</li>
             <li>${req.body.HpV}</li>
-            <li>${req.body.email}</li>
-
         </ul>`
 
         const transporter = nodemailer.createTransport({
